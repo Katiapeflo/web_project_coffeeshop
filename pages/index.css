@@ -3,7 +3,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: Arial, sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
   background-color: #ffffff;
@@ -93,25 +93,6 @@
   color: #838383;
 }
 
-body{
-  font-family: "Inter", sans-serif;
-}
-
-.page{
-
-}
-
-.header{
-
-}
-
-.content{
-
-}
-
-.footer{
-
-}
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
