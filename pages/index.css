@@ -93,6 +93,25 @@
   color: #838383;
 }
 
+body{
+  font-family: "Inter", sans-serif;
+}
+
+.page{
+
+}
+
+.header{
+
+}
+
+.content{
+
+}
+
+.footer{
+
+}
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
