@@ -72,7 +72,7 @@
           </div>
         </div>
       </header>
-      <main class="content">
+      <fieldset class="content">
         <section class="recipes" id="recipes">
           <h3 class="recipes__title">Recetas</h3>
           <p class="recipes__subtitle">
@@ -106,7 +106,37 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <p class="reservation__title">Reservar una mesa</p>
+          <form class="form reservation__form">
+          <fieldset class="form form__fielset">
+          <label class="form__label" for="name">Nombre *</label>
+          <input class="form__input" id="name" type="text" placeholder="Nombre" required />
+          <br>
+          <label class="form__label" for="number">Número de comensales</label>
+          <input
+            class="form__input"
+            id="number"
+            type="number"
+            min="1"
+            max="8"
+            placeholder="1-8"
+            required
+          />
+          <br>
+          <label class="form__label" for="time">Fecha y hora</label>
+          <input class="form__input" id="time" type="datetime-local" required/>
+          <br>
+          <label class="form__label" for="email">Tu correo electrónico</label>
+          <input class="form__input" id="email" type="email" placeholder="email@email.com" required/>
+          <br>
+        </fieldset>
+        <button class="form__button" type="submit">Reservar una mesa</button>
+        <label class="form__label form__label-checkbox" for="terms">
+          <input class="form__checkbox" id="terms" type="checkbox" required/>Acepto los términos de uso
+        </label>
+          </form>
+        </section>
       </main>
       <footer class="footer" id="contacts"></footer>
     </div>
