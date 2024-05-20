@@ -1,5 +1,7 @@
 .footer {
   background-color: #0a2850;
+  overflow: hidden;
+  position: relative;
 }
 
 .footer__content {
@@ -26,6 +28,7 @@
   top: -188px;
   left: -124px;
 }
+
 .footer__social-heading {
   margin: 0 auto 20px;
   font-weight: bold;
